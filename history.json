@@ -1,0 +1,614 @@
+[
+  {
+    "attempt": 1,
+    "time": "2026-10-13 18:06:34",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 64.59
+  },
+  {
+    "attempt": 2,
+    "time": "2026-10-13 18:06:37",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 47.29
+  },
+  {
+    "attempt": 3,
+    "time": "2026-10-13 18:06:46",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 48.9
+  },
+  {
+    "attempt": 4,
+    "time": "2026-10-13 18:06:48",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.68
+  },
+  {
+    "attempt": 5,
+    "time": "2026-10-13 18:06:49",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 53.55
+  },
+  {
+    "attempt": 6,
+    "time": "2026-10-13 18:06:50",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 55.6
+  },
+  {
+    "attempt": 7,
+    "time": "2026-10-13 18:06:52",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 48.4
+  },
+  {
+    "attempt": 8,
+    "time": "2026-10-13 18:06:53",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.88
+  },
+  {
+    "attempt": 9,
+    "time": "2026-10-13 18:06:54",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 56.1
+  },
+  {
+    "attempt": 10,
+    "time": "2026-10-13 18:06:55",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.75
+  },
+  {
+    "attempt": 11,
+    "time": "2026-10-13 18:06:56",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.46
+  },
+  {
+    "attempt": 12,
+    "time": "2026-10-13 18:06:56",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 54.65
+  },
+  {
+    "attempt": 13,
+    "time": "2026-10-13 18:06:56",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 48.48
+  },
+  {
+    "attempt": 14,
+    "time": "2026-10-13 18:06:57",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.22
+  },
+  {
+    "attempt": 15,
+    "time": "2026-10-13 18:06:57",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.42
+  },
+  {
+    "attempt": 16,
+    "time": "2026-10-13 18:06:57",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.05
+  },
+  {
+    "attempt": 17,
+    "time": "2026-10-13 18:06:58",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.96
+  },
+  {
+    "attempt": 18,
+    "time": "2026-10-13 18:06:58",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 48.99
+  },
+  {
+    "attempt": 19,
+    "time": "2026-10-13 18:06:58",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.23
+  },
+  {
+    "attempt": 20,
+    "time": "2026-10-13 18:06:59",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.28
+  },
+  {
+    "attempt": 21,
+    "time": "2026-10-13 18:06:59",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.72
+  },
+  {
+    "attempt": 22,
+    "time": "2026-10-13 18:06:59",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.34
+  },
+  {
+    "attempt": 23,
+    "time": "2026-10-13 18:07:00",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.52
+  },
+  {
+    "attempt": 24,
+    "time": "2026-10-13 18:07:00",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.3
+  },
+  {
+    "attempt": 25,
+    "time": "2026-10-13 18:07:05",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.47
+  },
+  {
+    "attempt": 26,
+    "time": "2026-10-13 18:07:05",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.65
+  },
+  {
+    "attempt": 27,
+    "time": "2026-10-13 18:07:05",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.03
+  },
+  {
+    "attempt": 28,
+    "time": "2026-10-13 18:07:06",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.65
+  },
+  {
+    "attempt": 29,
+    "time": "2026-10-13 18:07:06",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.54
+  },
+  {
+    "attempt": 30,
+    "time": "2026-10-13 18:07:06",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 51.22
+  },
+  {
+    "attempt": 31,
+    "time": "2026-10-13 18:07:07",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.16
+  },
+  {
+    "attempt": 32,
+    "time": "2026-10-13 18:07:07",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 48.97
+  },
+  {
+    "attempt": 33,
+    "time": "2026-10-13 18:07:07",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 53.61
+  },
+  {
+    "attempt": 34,
+    "time": "2026-10-13 18:07:08",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.17
+  },
+  {
+    "attempt": 35,
+    "time": "2026-10-13 18:07:09",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.33
+  },
+  {
+    "attempt": 36,
+    "time": "2026-10-13 18:07:09",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 49.33
+  },
+  {
+    "attempt": 37,
+    "time": "2026-10-13 18:07:10",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 46.91
+  },
+  {
+    "attempt": 38,
+    "time": "2026-10-13 18:07:10",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 50.11
+  },
+  {
+    "attempt": 39,
+    "time": "2026-10-13 18:07:10",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 70.97
+  },
+  {
+    "attempt": 40,
+    "time": "2026-10-13 18:07:11",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 68.98
+  },
+  {
+    "attempt": 41,
+    "time": "2026-10-13 18:08:24",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 54.37
+  },
+  {
+    "attempt": 42,
+    "time": "2026-10-13 18:11:52",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 43.58
+  },
+  {
+    "attempt": 43,
+    "time": "2026-10-13 18:11:57",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 33.66
+  },
+  {
+    "attempt": 44,
+    "time": "2026-10-13 18:11:58",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 35.16
+  },
+  {
+    "attempt": 45,
+    "time": "2026-10-13 18:11:58",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 38.25
+  },
+  {
+    "attempt": 46,
+    "time": "2026-10-13 18:11:59",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 34.2
+  },
+  {
+    "attempt": 47,
+    "time": "2026-10-13 18:11:59",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 32.16
+  },
+  {
+    "attempt": 48,
+    "time": "2026-10-13 18:11:59",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 30.8
+  },
+  {
+    "attempt": 49,
+    "time": "2026-10-13 18:12:00",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 32.4
+  },
+  {
+    "attempt": 50,
+    "time": "2026-10-13 18:12:00",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 31.22
+  },
+  {
+    "attempt": 51,
+    "time": "2026-10-13 18:12:00",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 34.72
+  },
+  {
+    "attempt": 52,
+    "time": "2026-10-13 18:12:01",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 31.04
+  },
+  {
+    "attempt": 53,
+    "time": "2026-10-13 18:12:01",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 29.35
+  },
+  {
+    "attempt": 54,
+    "time": "2026-10-13 18:12:01",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 31.85
+  },
+  {
+    "attempt": 55,
+    "time": "2026-10-13 18:12:02",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 45.63
+  },
+  {
+    "attempt": 56,
+    "time": "2026-10-13 18:12:05",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 48.91
+  },
+  {
+    "attempt": 57,
+    "time": "2026-10-13 18:12:12",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 40.58
+  },
+  {
+    "attempt": 58,
+    "time": "2026-10-13 18:12:13",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 31.43
+  },
+  {
+    "attempt": 59,
+    "time": "2026-10-13 18:12:14",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 32.32
+  },
+  {
+    "attempt": 60,
+    "time": "2026-10-13 18:12:15",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 32.47
+  },
+  {
+    "attempt": 61,
+    "time": "2026-10-13 18:12:16",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 37.76
+  },
+  {
+    "attempt": 62,
+    "time": "2026-10-13 18:16:49",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 37.53
+  },
+  {
+    "attempt": 63,
+    "time": "2026-10-13 18:16:50",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 31.64
+  },
+  {
+    "attempt": 64,
+    "time": "2026-10-13 18:16:51",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 31.93
+  },
+  {
+    "attempt": 65,
+    "time": "2026-10-13 18:16:52",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 32.28
+  },
+  {
+    "attempt": 66,
+    "time": "2026-10-13 18:17:31",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 33.71
+  },
+  {
+    "attempt": 67,
+    "time": "2026-10-13 18:18:40",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 37.67
+  },
+  {
+    "attempt": 68,
+    "time": "2026-10-13 18:18:41",
+    "target": "google.com",
+    "success": true,
+    "replies": 5,
+    "sent": 5,
+    "average_ms": 33.25
+  }
+]

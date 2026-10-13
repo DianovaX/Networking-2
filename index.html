@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Network Latency Scanner</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Network Latency Scanner</h1>
+    <p>Automated ping test &middot; average latency</p>
+  </header>
+
+  <main>
+    <section class="card controls" id="controls">
+      <button id="scanBtn" type="button">Run scan</button>
+      <div class="spinner" aria-hidden="true"></div>
+      <span class="hint" id="hint">Press the button to ping the target 5 times.</span>
+    </section>
+
+    <section class="card" id="error" role="alert"></section>
+
+    <section class="card" id="results">
+      <h2>Target: <span id="target"></span></h2>
+
+      <div class="stats">
+        <div class="stat"><b id="avg">-</b><span>average latency (ms)</span></div>
+        <div class="stat"><b id="replies">-</b><span>replies received</span></div>
+      </div>
+    </section>
+
+    <section class="card" id="historyCard">
+      <h2>Attempt history</h2>
+      <p class="empty" id="historyEmpty">No attempts yet.</p>
+      <table id="historyTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Time</th>
+            <th>Result</th>
+            <th>Replies</th>
+            <th>Average (ms)</th>
+          </tr>
+        </thead>
+        <tbody id="historyBody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>Networking 2 &middot; Module 13</footer>
+
+  <script>
+    const btn = document.getElementById("scanBtn");
+    const controls = document.getElementById("controls");
+    const hint = document.getElementById("hint");
+    const errorBox = document.getElementById("error");
+    const results = document.getElementById("results");
+    const historyTable = document.getElementById("historyTable");
+    const historyBody = document.getElementById("historyBody");
+    const historyEmpty = document.getElementById("historyEmpty");
+
+    function showError(message) {
+      results.style.display = "none";
+      errorBox.textContent = message;
+      errorBox.style.display = "block";
+    }
+
+    function showResults(d) {
+      errorBox.style.display = "none";
+      document.getElementById("target").textContent = d.target;
+      document.getElementById("avg").textContent = d.average_ms;
+      document.getElementById("replies").textContent = d.replies + " / " + d.sent;
+      results.style.display = "block";
+    }
+
+    function addCell(row, text, className) {
+      const cell = document.createElement("td");
+      cell.textContent = text;
+      if (className) cell.className = className;
+      row.appendChild(cell);
+    }
+
+    // Load every recorded attempt (newest first) and show it in the table
+    async function loadHistory() {
+      try {
+        const response = await fetch("/history");
+        const attempts = await response.json();
+
+        historyBody.innerHTML = "";
+        historyEmpty.style.display = attempts.length ? "none" : "block";
+        historyTable.style.display = attempts.length ? "table" : "none";
+
+        attempts.forEach(function (a) {
+          const row = document.createElement("tr");
+          addCell(row, a.attempt);
+          addCell(row, a.time);
+          addCell(row, a.success ? "Success" : "No response", a.success ? "ok" : "fail");
+          addCell(row, a.replies + " / " + a.sent);
+          addCell(row, a.average_ms === null ? "-" : a.average_ms);
+          historyBody.appendChild(row);
+        });
+      } catch (err) {
+        historyEmpty.textContent = "Could not load history.";
+        historyEmpty.style.display = "block";
+      }
+    }
+
+    async function runScan() {
+      btn.disabled = true;
+      controls.classList.add("loading");
+      hint.textContent = "Scanning... this takes a few seconds.";
+      errorBox.style.display = "none";
+
+      try {
+        const response = await fetch("/scan");
+        if (!response.ok) throw new Error("Server error (" + response.status + ")");
+        const data = await response.json();
+
+        if (data.success) {
+          showResults(data);
+        } else {
+          showError(data.message || "The scan failed.");
+        }
+      } catch (err) {
+        showError("Could not reach the server: " + err.message);
+      } finally {
+        btn.disabled = false;
+        controls.classList.remove("loading");
+        btn.textContent = "Run again";
+        hint.textContent = "Last scan finished at " + new Date().toLocaleTimeString() + ".";
+        loadHistory();
+      }
+    }
+
+    btn.addEventListener("click", runScan);
+    loadHistory();
+  </script>
+</body>
+</html>
